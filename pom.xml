@@ -10,6 +10,8 @@
 
     <properties>
         <jda.ver>4.2.0_204</jda.ver>
+        <slf4j.ver>2.0.0-alpha1</slf4j.ver>
+        <log4j.ver>2.13.3</log4j.ver>
     </properties>
 
     <repositories>
@@ -25,6 +27,24 @@
             <groupId>net.dv8tion</groupId>
             <artifactId>JDA</artifactId>
             <version>${jda.ver}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-log4j12</artifactId>
+            <version>${slf4j.ver}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>${slf4j.ver}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-core</artifactId>
+            <version>${log4j.ver}</version>
         </dependency>
     </dependencies>
 </project>
