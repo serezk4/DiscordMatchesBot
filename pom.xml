@@ -18,7 +18,7 @@
             <name>jcenter-bintray</name>
             <url>https://jcenter.bintray.com</url>
         </repository>
-    </repositories>>
+    </repositories>
 
     <dependencies>
         <dependency>
